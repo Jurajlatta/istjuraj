@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>istjuraj | Portfolio</title>
+<meta name="description" content="istjuraj – IT, automatizácie a 3D príbehy. Projekty, GitHub a sociálne siete.">
+<style>
+:root{--bg:#0b0b14;--card:#14142a;--text:#eef0ff;--muted:#9aa0c3;--accent:#00e5ff;--gold:#f4c542}
+@media (prefers-color-scheme:light){:root{--bg:#f6f7ff;--card:#fff;--text:#12122a;--muted:#5a5f85;--accent:#0077b6;--gold:#b88a00}}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+main{max-width:860px;margin:0 auto;padding:48px 16px 64px}
+h1{font-size:clamp(2rem,6vw,3.2rem);margin:0 0 4px;letter-spacing:-.02em}
+h1 span{color:var(--accent)}
+.sub{color:var(--muted);margin:0 0 32px}
+h2{font-size:1.1rem;text-transform:uppercase;letter-spacing:.08em;color:var(--gold);margin:40px 0 12px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--card);border:1px solid rgba(128,128,170,.25);border-radius:14px;padding:18px}
+.card h3{margin:0 0 6px;font-size:1.05rem}
+.card p{margin:0 0 12px;color:var(--muted);font-size:.95rem}
+a{color:var(--accent);text-decoration:none;font-weight:600}
+a:hover,a:focus-visible{text-decoration:underline}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags span{border:1px solid rgba(128,128,170,.35);border-radius:999px;padding:4px 12px;font-size:.85rem;color:var(--muted)}
+footer{margin-top:48px;color:var(--muted);font-size:.85rem}
+</style>
+</head>
+<body>
+<main>
+<h1>ist<span>juraj</span></h1>
+<p class="sub">Študent IT · automatizácie, siete a 3D príbehy</p>
+
+<h2>Projekty</h2>
+<div class="grid">
+  <article class="card">
+    <h3>IT Brigády Scraper</h3>
+    <p>Node.js bot na GitHub Actions, ktorý sleduje Profesia.sk a Brigada.sk a posiela nové IT brigády na Discord. API kľúče sú len v GitHub Secrets, nie v repozitári.</p>
+    <a href="https://github.com/Jurajlatta/it-brigady-scraper">Zdrojový kód na GitHube →</a>
+  </article>
+  <article class="card">
+    <h3>Caught in 3D</h3>
+    <p>Originálne AI-asistované 2D a 3D animované príbehy. Nový diel každý týždeň.</p>
+    <a href="https://www.youtube.com/channel/UCIrqD0J2ygJhw39Or9Z3R5w">YouTube →</a>
+  </article>
+</div>
+
+<h2>Technológie</h2>
+<div class="tags"><span>Node.js</span><span>JavaScript</span><span>PHP</span><span>C</span><span>LAN</span><span>Cisco CCNA</span><span>GitHub Actions</span><span>Blender</span></div>
+
+<h2>Odkazy</h2>
+<div class="grid">
+  <article class="card"><h3>GitHub</h3><a href="https://github.com/Jurajlatta">github.com/Jurajlatta</a></article>
+  <article class="card"><h3>YouTube</h3><a href="https://www.youtube.com/channel/UCIrqD0J2ygJhw39Or9Z3R5w">Caught in 3D</a></article>
+  <article class="card"><h3>Instagram</h3><a href="https://www.instagram.com/caught_in_3d/">@caught_in_3d</a></article>
+  <article class="card"><h3>TikTok</h3><a href="https://www.tiktok.com/@caught_in_3d">@caught_in_3d</a></article>
+</div>
+
+<footer>© istjuraj</footer>
+</main>
+</body>
+</html>
